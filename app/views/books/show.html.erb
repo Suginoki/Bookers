@@ -1,2 +1,6 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<p>Book was successfully created.</p>
+<p>
+  <b>Title:</b> <%= @book.title %>
+  <b>Body:</b> <%= @book.body %>
+</p>
+<%= link_to 'back', books_index_path %>
