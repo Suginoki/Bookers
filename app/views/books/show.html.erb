@@ -3,4 +3,5 @@
   <b>Title:</b> <%= @book.title %>
   <b>Body:</b> <%= @book.body %>
 </p>
-<%= link_to 'back', books_index_path %>
+<%= link_to 'Edit', edit_book_path(@book) %>
+<%= link_to 'Back', books_path %> | 
